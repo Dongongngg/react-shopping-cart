@@ -1,0 +1,77 @@
+//resett
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+
+body,
+input,
+select,
+textarea {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+//overall section layout
+.grid-container {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+}
+
+header {
+  grid-area: header;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  a:hover {
+    color: cornflowerblue;
+  }
+}
+main {
+  grid-area: main;
+  background-color: beige;
+}
+footer {
+  grid-area: footer;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//main section layout
+.main-box {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 75% 25%;
+
+  .cart-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

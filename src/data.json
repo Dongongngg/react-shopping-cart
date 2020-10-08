@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "dress1",
+      "title": "Dress 1",
+      "description": "this is a dress 1",
+      "price": 20,
+      "availableSizes": ["s", "m"]
+    },
+    {
+      "id": "dress2",
+      "title": "Dress 2",
+      "description": "this is a dress 2",
+      "price": 20,
+      "availableSizes": ["m", "l"]
+    },
+    {
+      "id": "dress3",
+      "title": "Dress 3",
+      "description": "this is a dress 3",
+      "price": 20,
+      "availableSizes": ["m", "l"]
+    },
+    {
+      "id": "dress4",
+      "title": "Dress 4",
+      "description": "this is a dress 4",
+      "price": 20,
+      "availableSizes": ["m", "l"]
+    },
+    {
+      "id": "dress5",
+      "title": "Dress 5",
+      "description": "this is a dress 5",
+      "price": 20,
+      "availableSizes": ["m", "l"]
+    },
+    {
+      "id": "dress6",
+      "title": "Dress 6",
+      "description": "this is a dress 6",
+      "price": 20,
+      "availableSizes": ["m", "l"]
+    },
+    {
+      "id": "dress6",
+      "title": "Dress 6",
+      "description": "this is a dress 6",
+      "price": 20,
+      "availableSizes": ["m", "l"]
+    },
+    {
+      "id": "dress6",
+      "title": "Dress 6",
+      "description": "this is a dress 6",
+      "price": 20,
+      "availableSizes": ["m", "l"]
+    }
+  ]
+}
