@@ -16,7 +16,7 @@ export default function Products(props) {
                 <p>{product.description}</p>
               </div>
               <div className="product-price">
-                <h3> {product.price}</h3>
+                <h3>${product.price}</h3>
 
                 <button>Add to cart</button>
               </div>

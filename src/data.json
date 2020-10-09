@@ -1,58 +1,58 @@
 {
   "products": [
     {
-      "id": "dress1",
-      "title": "Dress 1",
-      "description": "this is a dress 1",
+      "id": "item1",
+      "title": "item 1",
+      "description": "this is a item 1",
       "price": 20,
       "availableSizes": ["s", "m"]
     },
     {
-      "id": "dress2",
-      "title": "Dress 2",
-      "description": "this is a dress 2",
+      "id": "item2",
+      "title": "item 2",
+      "description": "this is a item 2",
       "price": 20,
       "availableSizes": ["m", "l"]
     },
     {
-      "id": "dress3",
-      "title": "Dress 3",
-      "description": "this is a dress 3",
+      "id": "item3",
+      "title": "item 3",
+      "description": "this is a item 3",
       "price": 20,
       "availableSizes": ["m", "l"]
     },
     {
-      "id": "dress4",
-      "title": "Dress 4",
-      "description": "this is a dress 4",
+      "id": "item4",
+      "title": "item 4",
+      "description": "this is a item 4",
       "price": 20,
       "availableSizes": ["m", "l"]
     },
     {
-      "id": "dress5",
-      "title": "Dress 5",
-      "description": "this is a dress 5",
+      "id": "item5",
+      "title": "item 5",
+      "description": "this is a item 5",
       "price": 20,
       "availableSizes": ["m", "l"]
     },
     {
-      "id": "dress6",
-      "title": "Dress 6",
-      "description": "this is a dress 6",
+      "id": "item6",
+      "title": "item 6",
+      "description": "this is a item 6",
       "price": 20,
       "availableSizes": ["m", "l"]
     },
     {
-      "id": "dress6",
-      "title": "Dress 6",
-      "description": "this is a dress 6",
+      "id": "item7",
+      "title": "item 7",
+      "description": "this is a item 7",
       "price": 20,
       "availableSizes": ["m", "l"]
     },
     {
-      "id": "dress6",
-      "title": "Dress 6",
-      "description": "this is a dress 6",
+      "id": "item8",
+      "title": "item 8",
+      "description": "this is a item 8",
       "price": 20,
       "availableSizes": ["m", "l"]
     }
