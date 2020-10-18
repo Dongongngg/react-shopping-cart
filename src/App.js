@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import data from "./data.json";
 //components
 import Products from "./components/Products";
@@ -11,36 +11,36 @@ const App = () => {
 
   const sortProducts = (event) => {
     setSort(event.target.value);
-
-    setProducts(
-      products
-        .slice()
-        .sort((a, b) =>
-          sort === "Lowest"
-            ? b.price - a.price
-            : sort === "Highest"
-            ? a.price - b.price
-            : a.id - b.id
-        )
-    );
   };
+
+  useEffect(() => {
+    let sortResults = products
+      .slice()
+      .sort((a, b) =>
+        sort === "Lowest"
+          ? a.price - b.price
+          : sort === "Highest"
+          ? b.price - a.price
+          : b.id - a.id
+      );
+
+    setProducts(sortResults);
+  }, [sort]);
 
   const filterProducts = (event) => {
     if (event.target.value === "") {
       setProducts(data.products);
     } else {
       setSize(event.target.value);
-      setProducts(
-        data.products.filter(
-          (product) => product.availableSizes.indexOf(event.target.value) >= 0
-        )
+      let newData = data.products.filter(
+        (product) => product.availableSizes.indexOf(event.target.value) >= 0
       );
+      setProducts(newData);
     }
   };
 
   return (
     <div className="grid-container">
-      {console.log(products)}
       <header>
         <a href="/">React Shopping Cart</a>
       </header>
@@ -56,7 +56,7 @@ const App = () => {
             />
             <Products products={products} />
           </div>
-          <div className="cart-box">dsf sd asd sd</div>
+          <div className="cart-box">Cart</div>
         </div>
       </main>
       <footer>this is a footer</footer>
