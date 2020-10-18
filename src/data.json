@@ -4,49 +4,49 @@
       "id": "item1",
       "title": "item 1",
       "description": "this is a item 1",
-      "price": 20,
-      "availableSizes": ["s", "m"]
+      "price": 0,
+      "availableSizes": ["S"]
     },
     {
       "id": "item2",
       "title": "item 2",
       "description": "this is a item 2",
-      "price": 20,
-      "availableSizes": ["m", "l"]
+      "price": 10,
+      "availableSizes": ["L"]
     },
     {
       "id": "item3",
       "title": "item 3",
       "description": "this is a item 3",
-      "price": 20,
-      "availableSizes": ["m", "l"]
+      "price": 30,
+      "availableSizes": ["L"]
     },
     {
       "id": "item4",
       "title": "item 4",
       "description": "this is a item 4",
-      "price": 20,
-      "availableSizes": ["m", "l"]
+      "price": 40,
+      "availableSizes": ["M"]
     },
     {
       "id": "item5",
       "title": "item 5",
       "description": "this is a item 5",
-      "price": 20,
-      "availableSizes": ["m", "l"]
+      "price": 50,
+      "availableSizes": ["S", "M"]
     },
     {
       "id": "item6",
       "title": "item 6",
       "description": "this is a item 6",
-      "price": 20,
-      "availableSizes": ["m", "l"]
+      "price": 60,
+      "availableSizes": ["M", "L"]
     },
     {
       "id": "item7",
       "title": "item 7",
       "description": "this is a item 7",
-      "price": 20,
+      "price": 70,
       "availableSizes": ["m", "l"]
     },
     {
